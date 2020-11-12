@@ -8,33 +8,33 @@ public class PlayerController2 : MonoBehaviour
 [SerializeField]
 float speed = 1.0f;
 
-[SerializeField]
-Rigidbody rb;
+//[SerializeField]
+//Rigidbody rb;
 
 
-        public Vector3 jump;
-         public float jumpForce = 2.0f;
+//        public Vector3 jump;
+//         public float jumpForce = 2.0f;
      
-         public bool isGrounded;
+//         public bool isGrounded;
          void Start(){
       
-             jump = new Vector3(0.0f, 2.0f, 0.0f);
+             //jump = new Vector3(0.0f, 2.0f, 0.0f);
          }
      
-         void OnCollisionStay()
-         {
-             isGrounded = true;
-             Debug.Log("er grounded");
-         }
+         //void OnCollisionStay()
+         //{
+         //    isGrounded = true;
+         //    Debug.Log("er grounded");
+         //}
      
-         void Update(){
-             if(Input.GetKeyDown(KeyCode.Space) && isGrounded){
+         //void Update(){
+         //    if(Input.GetKeyDown(KeyCode.Space) && isGrounded){
      
-                 rb.AddForce(jump * jumpForce, ForceMode.Impulse);
-                 isGrounded = false;
-                 Debug.Log("hop");
-             }
-         }
+         //        rb.AddForce(jump * jumpForce, ForceMode.Impulse);
+         //        isGrounded = false;
+         //        Debug.Log("hop");
+         //    }
+         //}
     void FixedUpdate()
     {
         // Get the horizontal and vertical axis.
