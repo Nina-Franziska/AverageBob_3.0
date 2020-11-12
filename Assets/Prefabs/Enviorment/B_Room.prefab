@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6500283864720373414}
   - component: {fileID: 7573567607145672724}
   - component: {fileID: 5565880309826768096}
+  - component: {fileID: 5678494644997912418}
   m_Layer: 0
   m_Name: B_Room
   m_TagString: Untagged
@@ -129,6 +130,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.1635232, y: 0.8186207, z: 3.196209}
   m_Center: {x: 1.3597357, y: 0.41178513, z: 0.84969044}
+--- !u!54 &5678494644997912418
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8703248366604601221}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 1
 --- !u!1001 &788965013521731715
 PrefabInstance:
   m_ObjectHideFlags: 0
