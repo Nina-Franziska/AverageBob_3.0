@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 4032178579382257672}
   - component: {fileID: 4998891433627170019}
   - component: {fileID: 5547819245154846081}
+  - component: {fileID: 2042750896990265018}
   m_Layer: 0
-  m_Name: Screen
+  m_Name: Screen_Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -113,3 +114,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2042750896990265018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3239725845013293533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8360321f06e2a07448b7ef8f2588103b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedVersion: {fileID: 1930723874436970400, guid: 7ac07a2a1062a8548ae6a413706b556b, type: 3}
